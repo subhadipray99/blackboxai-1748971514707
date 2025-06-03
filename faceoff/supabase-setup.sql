@@ -1,4 +1,5 @@
--- Enable the pgcrypto extension for UUID generation
+
+;-- Enable the pgcrypto extension for UUID generation
 create extension if not exists "pgcrypto";
 
 -- Create posts table
